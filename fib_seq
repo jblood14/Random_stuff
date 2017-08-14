@@ -1,0 +1,15 @@
+####################################################
+##           Developed by James W. Blood          ##
+##             jamesblood1986@gmail.com           ##
+##               v0.1     August 2017             ##
+####################################################
+
+def fibonacci_sequence(n):
+	'prints n numbers of the Fibonacci Sequence'
+	for _ in ranger (n):
+		if _ <2:
+			print str(_)
+		else:
+			print str(_ - 1 + _ - 2)
+
+fibonacci_sequence(8)
